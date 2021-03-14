@@ -19,7 +19,6 @@
 
 header {
   height: 60px;
-  cursor: pointer;
   text-decoration: none;
 }
 
@@ -30,11 +29,16 @@ header {
   padding-top: 6px;
 }
 
-.gmail,
-.images,
+.header-link a,
 .profilePhoto {
   padding: 14px;
   font-size: 13px;
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline !important;
 }
 
 .profilePhoto {
@@ -65,6 +69,13 @@ div {
 
 .searchBar {
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 358px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 
 .bar {
@@ -74,33 +85,34 @@ div {
   min-width: 358px;
   border-radius: 30px;
   border: 1px solid #dcdcdc;
-  padding: 5px 8px 0 16px;
-  padding-left: 14px;
+  padding: 5px 40px;
+  outline: none;
 }
 
 .voice {
   display: flex;
   height: 20px;
-  position: relative;
-  top: -50%;
-  left: 94%;
+  position: absolute;
+  top: 38%;
+  right: 20px;
+  cursor: pointer;
 }
 
 .search {
   height: 25px;
-  position: relative;
-  top: 5px;
-  left: 1%;
+  position: absolute;
+  top: 35%;
+  left: 10px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
-.button {
+.buttonWrapper {
   display: flex;
   justify-content: center;
 }
 
-.first,
-.second {
+.button {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
@@ -115,6 +127,12 @@ div {
   text-align: center;
   cursor: pointer;
   user-select: none;
+}
+
+.button:hover,
+.icon:hover,
+.pirci:hover {
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 .output {
@@ -164,7 +182,7 @@ footer {
 .secondLine {
   display: flex;
   justify-content: space-between;
-  padding: 15px 15px;
+  padding: 15px;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.54);
   flex-wrap: wrap;
@@ -175,7 +193,6 @@ footer {
 .end {
   display: inline-block;
   display: flex;
-  margin-left: -10px;
   justify-content: space-evenly;
 }
 
@@ -196,9 +213,9 @@ footer {
   }
 }
 
-@media only screen and (max-width: 663) {
-  .secondLine {
-    display: flex;
-    flex-wrap: nowrap;
+@media only screen and (max-width: 663px) {
+  .start,
+  .end {
+    padding: 15px 0;
   }
 }
