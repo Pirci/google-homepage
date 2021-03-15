@@ -72,7 +72,7 @@ div {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 358px;
+  max-width: 620px;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -81,7 +81,7 @@ div {
 .bar {
   margin: 0 auto;
   height: 45px;
-  max-width: 575px;
+  width: 588px;
   min-width: 358px;
   border-radius: 30px;
   border: 1px solid #dcdcdc;
@@ -94,7 +94,7 @@ div {
   height: 20px;
   position: absolute;
   top: 38%;
-  right: 20px;
+  right: 39px;
   cursor: pointer;
 }
 
@@ -102,7 +102,7 @@ div {
   height: 25px;
   position: absolute;
   top: 35%;
-  left: 10px;
+  left: 30px;
   vertical-align: middle;
   cursor: pointer;
 }
@@ -131,7 +131,8 @@ div {
 
 .button:hover,
 .icon:hover,
-.pirci:hover {
+.pirci:hover,
+.bar:hover {
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
