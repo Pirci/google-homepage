@@ -51,9 +51,9 @@ body {
   color: #222;
 }
 
-.icon {
+.menu-icon-container {
   display: inline-block;
-  width: 22px;
+  width: 24px;
   margin-right: 0px;
   padding-right: 0px;
 }
@@ -89,7 +89,7 @@ div {
   outline: none;
 }
 
-.voice {
+.voice-icon {
   display: flex;
   height: 20px;
   position: absolute;
@@ -130,7 +130,6 @@ div {
 }
 
 .button:hover,
-.icon:hover,
 .pirci:hover,
 .bar:hover {
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
