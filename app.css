@@ -26,12 +26,12 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 6px;
+  margin: -9px -8px 0px 0px;
 }
 
 .header-link a,
 .profilePhoto {
-  padding: 14px;
+  padding: 12px;
   font-size: 13px;
   color: #222;
   text-decoration: none;
@@ -91,7 +91,7 @@ div {
 
 .voice-icon {
   display: flex;
-  height: 20px;
+  height: 24px;
   position: absolute;
   top: 38%;
   right: 39px;
@@ -99,12 +99,13 @@ div {
 }
 
 .search {
-  height: 25px;
+  height: 21px;
   position: absolute;
-  top: 35%;
-  left: 30px;
+  top: 36%;
+  left: 33px;
   vertical-align: middle;
   cursor: pointer;
+  color: #9aa0a6;
 }
 
 .buttonWrapper {
@@ -119,7 +120,7 @@ div {
   color: #3c4043;
   font-family: arial, sans-serif;
   font-size: 14px;
-  margin: 11px 4px;
+  margin: 11px 6px;
   padding: 0 16px;
   line-height: 27px;
   height: 36px;
@@ -129,10 +130,16 @@ div {
   user-select: none;
 }
 
-.button:hover,
 .pirci:hover,
 .bar:hover {
-  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px -12px #969696;
+}
+
+.button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
 }
 
 .output {
@@ -186,11 +193,17 @@ footer {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.54);
   flex-wrap: wrap;
-  cursor: pointer;
 }
 
-.start,
+.start {
+  margin-left: -10px;
+  display: inline-block;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .end {
+  margin-right: -10px;
   display: inline-block;
   display: flex;
   justify-content: space-evenly;
@@ -199,11 +212,18 @@ footer {
 .begin {
   padding-left: 30px;
   display: flex;
+  cursor: pointer;
 }
 
 .last {
   margin-right: 15px;
   padding-right: 15px;
+  cursor: pointer;
+}
+
+.begin:hover,
+.last:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -216,6 +236,6 @@ footer {
 @media only screen and (max-width: 663px) {
   .start,
   .end {
-    padding: 15px 0;
+    padding: 12px 0;
   }
 }
