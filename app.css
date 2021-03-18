@@ -108,6 +108,10 @@ div {
   color: #9aa0a6;
 }
 
+.search path {
+  fill: currentColor;
+}
+
 .buttonWrapper {
   display: flex;
   justify-content: center;
