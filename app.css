@@ -1,4 +1,13 @@
-* {
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -61,6 +70,7 @@ body {
 .pirci {
   border-radius: 50%;
   max-width: 50%;
+  padding-top: 10px;
 }
 
 div {
