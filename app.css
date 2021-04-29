@@ -219,39 +219,36 @@ footer {
 }
 
 .secondLine {
-  line-height: 46px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  padding: 0px 15px;
+  flex-wrap: wrap;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.54);
-  flex-wrap: wrap;
 }
 
 .start {
-  margin-left: -10px;
-  display: inline-block;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .end {
-  margin-right: -10px;
-  display: inline-block;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .begin {
-  padding-left: 30px;
-  display: flex;
-  cursor: pointer;
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
 }
 
 .last {
-  margin-right: 15px;
-  padding-right: 15px;
-  cursor: pointer;
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
 }
 
 .begin:hover,
@@ -269,6 +266,6 @@ footer {
 @media only screen and (max-width: 663px) {
   .start,
   .end {
-    padding: 12px 0;
+    padding: 6px 0px;
   }
 }
