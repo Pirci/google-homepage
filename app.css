@@ -11,6 +11,8 @@ body {
   box-sizing: border-box;
 }
 
+
+
 .content {
   padding-top: 200px;
   display: flex;
@@ -194,6 +196,7 @@ footer {
 .firstLine {
   display: flex;
   font-size: 15px;
+  line-height: 17px;
   color: rgba(0, 0, 0, 0.54);
   position: relative;
   padding: 15px 30px;
@@ -201,9 +204,10 @@ footer {
 }
 
 .secondLine {
+  line-height: 46px;
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  padding: 0px 15px;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.54);
   flex-wrap: wrap;
