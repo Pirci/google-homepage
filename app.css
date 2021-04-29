@@ -11,8 +11,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
 .content {
   padding-top: 200px;
   display: flex;
@@ -37,12 +35,34 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin: -9px -8px 0px 0px;
+  position: relative;
+}
+
+#gmail {
+  margin-right: 15px;
+  margin-top: 12px;
+}
+
+#images {
+  margin-right: 27px;
+  margin-top: 12px;
+}
+
+#dots {
+  margin-right: 20px;
+  margin-top: 15px;
+  color: #5f6368;
+  opacity: 1;
+  fill: currentColor;
+}
+
+#profile {
+  margin-right: -14px;
+  margin-top: 14px;
 }
 
 .header-link a,
 .profilePhoto {
-  padding: 12px;
   font-size: 13px;
   color: #222;
   text-decoration: none;
@@ -50,10 +70,6 @@ header {
 
 a:hover {
   text-decoration: underline !important;
-}
-
-.profilePhoto {
-  padding-right: 4px;
 }
 
 body {
@@ -72,7 +88,6 @@ body {
 .pirci {
   border-radius: 50%;
   max-width: 50%;
-  padding-top: 8px;
 }
 
 div {
