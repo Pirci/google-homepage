@@ -20,7 +20,7 @@ body {
 
 .googleImage {
   display: flex;
-  width: 272px;
+  width: 270px;
   height: 92px;
   object-fit: contain;
   object-position: center bottom;
