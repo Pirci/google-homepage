@@ -1,3 +1,7 @@
+/*
+********************* DEFULT STYLE *********************
+*/
+
 html,
 body {
   width: 100%;
@@ -11,261 +15,73 @@ body {
   box-sizing: border-box;
 }
 
-.content {
-  padding-top: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+svg,
+img,
+iframe {
+  display: block;
 }
 
-.googleImage {
-  display: flex;
-  width: 270px;
-  height: 92px;
-  object-fit: contain;
-  object-position: center bottom;
-}
-
-header {
-  height: 60px;
+a {
   text-decoration: none;
-}
-
-.container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: relative;
-}
-
-#gmail {
-  margin-right: 15px;
-  margin-top: 12px;
-}
-
-#images {
-  margin-right: 27px;
-  margin-top: 12px;
-}
-
-#dots {
-  margin-right: 20px;
-  margin-top: 15px;
-  color: #5f6368;
-  opacity: 1;
-  fill: currentColor;
-}
-
-#profile {
-  margin-right: -14px;
-  margin-top: 14px;
-}
-
-.header-link a,
-.profilePhoto {
-  font-size: 13px;
-  color: #222;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline !important;
+  color: #000;
 }
 
 body {
-  font-size: 14px;
   font-family: Arial, sans-serif;
-  color: #222;
+  min-width: 400px;
 }
 
-.menu-icon-container {
-  display: inline-block;
-  width: 24px;
-  margin-right: 0px;
-  padding-right: 0px;
-}
+/*
+********************* HEADER STYLE *********************
+*/
 
-.pirci {
-  border-radius: 50%;
-  max-width: 50%;
-}
-
-div {
-  display: block;
-}
-
-.searchBar {
-  padding: 20px;
+header {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  max-width: 620px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
+  padding: 10px 14px 10px 6px;
+  font-size: 13px;
 }
 
-.bar {
-  margin: 0 auto;
-  height: 45px;
-  width: 588px;
-  min-width: 358px;
-  border-radius: 30px;
-  border: 1px solid #dcdcdc;
-  padding: 5px 40px;
-  outline: none;
+a {
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 24px;
 }
 
-.voice-icon {
-  display: flex;
-  height: 24px;
-  position: absolute;
-  top: 38%;
-  right: 39px;
-  cursor: pointer;
-}
-
-.search {
-  height: 21px;
-  position: absolute;
-  top: 36%;
-  left: 33px;
-  vertical-align: middle;
-  cursor: pointer;
-  color: #9aa0a6;
-}
-
-.search path {
-  fill: currentColor;
-}
-
-.buttonWrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.button {
-  background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
-  border-radius: 4px;
-  color: #3c4043;
-  font-family: arial, sans-serif;
-  font-size: 14px;
-  margin: 11px 6px;
-  padding: 0 16px;
-  line-height: 27px;
-  height: 36px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
-}
-
-.pirci:hover,
-.bar:hover {
-  box-shadow: 0px 0px 20px -12px #969696;
-}
-
-.button:hover {
-  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-  background-color: #f8f9fa;
-  border: 1px solid #dadce0;
-  color: #202124;
-}
-
-.output {
-  display: flex;
-  justify-content: center;
-  line-height: 28px;
-  padding: 12px;
-}
-
-.additional {
-  font-family: arial, sans-serif;
-  font-size: small;
-}
-
-.links {
-  display: inline-block;
-  padding: 0 2px;
-}
-
-.links a {
-  padding: 0 3px;
-  text-decoration: none;
-  color: #1a0dab;
-}
-
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: #f2f2f2;
-}
-
-.final {
-  flex-shrink: 0;
-}
-
-.firstLine {
-  display: flex;
-  font-size: 15px;
-  line-height: 17px;
-  color: rgba(0, 0, 0, 0.54);
-  position: relative;
-  padding: 15px 30px;
-  border-bottom: 1px solid #dadce0;
-}
-
-.secondLine {
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.54);
-}
-
-.start {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.end {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.begin {
-  display: block;
-  padding: 15px;
-  white-space: nowrap;
-}
-
-.last {
-  display: block;
-  padding: 15px;
-  white-space: nowrap;
-}
-
-.begin:hover,
-.last:hover {
+a:hover {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 1200px) {
-  .secondLine {
-    display: flex;
-    justify-content: space-evenly;
-  }
+.header-text-link {
+  margin-left: 15px;
 }
 
-@media only screen and (max-width: 663px) {
-  .start,
-  .end {
-    padding: 6px 0px;
-  }
+.apps-icon svg {
+  width: 24px;
+  fill: #5f6368;
+}
+
+.apps-icon {
+  padding: 8px;
+  border-radius: 50%;
+  margin-left: 19px;
+}
+
+.apps-icon:hover {
+  background-color: #3c404314;
+}
+
+.profile-icon {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.profile-icon:hover {
+  background-color: #3c404314;
+}
+
+.profile-icon img {
+  border-radius: 50%;
 }
