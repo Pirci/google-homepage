@@ -1,5 +1,5 @@
 /*
-********************* DEFULT STYLE *********************
+********************* Defult Style *********************
 */
 
 html,
@@ -21,6 +21,10 @@ iframe {
   display: block;
 }
 
+input {
+  padding: 0;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -32,7 +36,7 @@ body {
 }
 
 /*
-********************* HEADER STYLE *********************
+*********************  Header Section Style  *********************
 */
 
 header {
@@ -56,32 +60,106 @@ a:hover {
   margin-left: 15px;
 }
 
-.apps-icon svg {
+.apps-icon-link svg {
   width: 24px;
   fill: #5f6368;
 }
 
-.apps-icon {
+.apps-icon-link {
   padding: 8px;
   border-radius: 50%;
   margin-left: 19px;
 }
 
-.apps-icon:hover {
+.apps-icon-link:hover {
   background-color: #3c404314;
 }
 
-.profile-icon {
+.profile-icon-link {
   display: inline-block;
   padding: 4px;
   border-radius: 50%;
   margin-left: 8px;
 }
 
-.profile-icon:hover {
+.profile-icon-link:hover {
   background-color: #3c404314;
 }
 
-.profile-icon img {
+.profile-icon-link img {
   border-radius: 50%;
+}
+
+/*
+*********************  Main Section Style  *********************
+*/
+
+main {
+  height: calc(100% - 60px);
+}
+
+.google-logo-container {
+  min-height: 92px;
+  max-height: 290px;
+  height: calc(100% - 560px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.magnify-icon {
+  width: 20px;
+  height: 20px;
+  margin: 12px 13px 12px 14px;
+  fill: #9aa0a6;
+}
+
+.remove-text-link {
+  padding: 10px 16px 10px 8px;
+}
+
+.remove-text-link svg {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  fill: #80868b;
+}
+
+.link-border-right {
+  border-left: 1px solid #dfe1e5;
+  height: 100%;
+  display: inline-block;
+}
+
+.mic-icon-link {
+  padding: 0 8px;
+  margin-right: 8px;
+}
+
+.mic-icon-link svg {
+  width: 24px;
+  margin-top: 10px;
+}
+
+.search-bar {
+  margin: 26px auto 0;
+  max-width: 584px;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 46px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #000000de;
+}
+
+.search-bar:focus-within {
+  border-color: rgba(223, 225, 229, 0);
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
 }
