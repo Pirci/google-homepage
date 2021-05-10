@@ -1,13 +1,31 @@
-# Google Homepage
-A HTML/CSS project to (visually) replicate the Google homepage. 
+# Google Homepage Clone
+
+> A mini-project in which I deconstructed Google's homepage and rebuilt it using HTML and CSS. The goal is to clone the page's appearance, not necessarily the function. This is why the links and search bar don't go anywhere.
+
+From [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css) curriculum.
 
 
-Please click on the link below to view it. 
 
-https://pirci.github.io/google-homepage/
+## Live Demo
+
+Preview:  https://pirci.github.io/google-homepage/
 
 
 ![Alt Text](https://media.giphy.com/media/3JdBs3UVV8g9jYax2x/giphy.gif)
 
-<img width="1678" alt="Screenshot 2021-03-17 at 09 15 31" src="https://user-images.githubusercontent.com/43238947/111435723-6a1dff80-8701-11eb-86c6-2b1da7acc75e.png">
 
+## What I Learned:
+
+- Using Chrome/Firefox's developer tools to debug and see underlying code
+- How elements get placed, styled, and aligned on the page
+- Organizing code with divs to make items easier to position
+- Using CSS Flexbox for the layout of the page
+- Multiple types of CSS selectors
+- SVG icons
+
+
+## Possible Improvements
+
+- Cleaner code
+- Use more semantic elements
+- Formatting could be improved when viewing on certain devices/browsers
