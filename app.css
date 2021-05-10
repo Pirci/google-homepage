@@ -253,7 +253,7 @@ footer h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  line-height: 16px;
+
   font-size: 14px;
   padding: 0 20px;
   color: rgb(112, 117, 122);
@@ -282,9 +282,8 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 663px) and (max-width: 683px) {
-  .footer-second-line {
-    background-color: pink;
-    display: ;
+  .footer-second-line a {
+    padding: 13px;
   }
 }
 
