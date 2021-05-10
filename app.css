@@ -182,6 +182,7 @@ input:not(:valid) ~ .remove-text-link {
 }
 
 input[type="submit"] {
+  display: flex;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
@@ -189,10 +190,11 @@ input[type="submit"] {
   font-size: 14px;
   font-family: arial, sans-serif;
   padding: 0 16px;
-  margin: 11px 4px;
+  margin: 11px 6px;
   line-height: 27px;
   height: 36px;
   min-width: 54px;
+  align-items: flex-start;
 }
 
 input[type="submit"]:hover {
@@ -201,4 +203,27 @@ input[type="submit"]:hover {
   background-color: #f8f9fa;
   color: #202124;
   cursor: pointer;
+}
+
+main .language-bar {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.language-bar {
+  text-align: center;
+  display: inline-block;
+  line-height: 28px;
+  font-size: 13px;
+}
+
+.language-bar a {
+  padding: 0 3px;
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.language-bar a:hover {
+  text-decoration: underline;
 }
