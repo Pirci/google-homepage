@@ -5,15 +5,6 @@
 From [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css) curriculum.
 
 
-
-## Live Demo
-
-Preview:  https://pirci.github.io/google-homepage/
-
-
-![Alt Text](https://media.giphy.com/media/3JdBs3UVV8g9jYax2x/giphy.gif)
-
-
 ## What I Learned:
 
 - Using Chrome/Firefox's developer tools to debug and see underlying code
@@ -29,3 +20,10 @@ Preview:  https://pirci.github.io/google-homepage/
 - Cleaner code
 - Use more semantic elements
 - Formatting could be improved when viewing on certain devices/browsers
+
+## Live Demo
+
+Preview:  https://pirci.github.io/google-homepage/
+
+
+![Alt Text](https://media.giphy.com/media/3JdBs3UVV8g9jYax2x/giphy.gif)
