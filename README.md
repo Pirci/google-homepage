@@ -6,7 +6,12 @@ From [The Odin Project](https://www.theodinproject.com/paths/foundations/courses
 
 
 
+## Live Demo
 
+Preview:  https://pirci.github.io/google-homepage/
+
+
+![Alt Text](https://media.giphy.com/media/3JdBs3UVV8g9jYax2x/giphy.gif)
 
 
 ## What I Learned:
@@ -24,11 +29,3 @@ From [The Odin Project](https://www.theodinproject.com/paths/foundations/courses
 - Cleaner code
 - Use more semantic elements
 - Formatting could be improved when viewing on certain devices/browsers
-
-
-## Live Demo
-
-Preview:  https://pirci.github.io/google-homepage/
-
-
-![Alt Text](https://media.giphy.com/media/3JdBs3UVV8g9jYax2x/giphy.gif)
