@@ -9,7 +9,7 @@ From [The Odin Project](https://www.theodinproject.com/paths/foundations/courses
 Preview:  https://pirci.github.io/google-homepage/
 
 
-![Alt Text](https://media.giphy.com/media/3JdBs3UVV8g9jYax2x/giphy.gif)
+![google-homepage](https://media.giphy.com/media/3JdBs3UVV8g9jYax2x/giphy.gif)
 
 
 ## What I Learned:
