@@ -12,6 +12,7 @@ Preview:  https://pirci.github.io/google-homepage/
 ![google-homepage](demo.gif)
 
 
+
 ## What I Learned:
 
 - Using Chrome/Firefox's developer tools to debug and see underlying code
