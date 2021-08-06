@@ -2,8 +2,6 @@
 
 > A mini-project in which I deconstructed Google's homepage and rebuilt it using HTML and CSS. The goal is to clone the page's appearance, not necessarily the function. This is why the links and search bar don't go anywhere.
 
-From [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css) curriculum.
-
 ## Live Demo
 
 Preview:  https://pirci.github.io/google-homepage/
